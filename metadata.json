@@ -1,0 +1,8 @@
+
+{
+  "name": "CarPartsKenyaPro",
+  "description": "A high-performance automotive parts marketplace featuring technical fitment verification, industrial UI/UX, and professional inventory management.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}

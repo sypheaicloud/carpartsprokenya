@@ -6,7 +6,7 @@ import ProductCard from './components/ProductCard';
 import InventoryDashboard from './components/InventoryDashboard';
 import { MOCK_PRODUCTS, CATEGORIES } from './constants';
 import { Product, CartItem } from './types';
-import { Wrench, ChevronRight, Filter, Grid, List, CheckCircle2, RefreshCcw, ShieldCheck, Truck } from 'lucide-react';
+import { Wrench, ChevronRight, Filter, Grid, List, CheckCircle2, RefreshCcw, ShieldCheck, Truck, Package } from 'lucide-react';
 
 const App: React.FC = () => {
   const [view, setView] = useState<'home' | 'search' | 'seller' | 'cart' | 'details'>('home');
